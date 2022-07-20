@@ -1,6 +1,6 @@
 # Exomine
 
-This project has you building an application that lets governors of different colonies in our Solar System purchase minerals from various mining facilities that human have established.
+This project has you building an application that allows you govern different colonies in our Solar System purchase minerals from various mining facilities that humans have established.
 
 ## Learning Objectives
 
@@ -20,41 +20,22 @@ Quote from previous student...
 
 This is the general layout provided by your product owner. Please follow this guideline for your project's layout.
 
-![wireframe for project](./images/wireframe.png)
+![wireframe for project](./images/wireframe-3.png)
 
-
-## Workflow Animation
-
-This animation shows you the basic behavior of the application.
-
-![](./images/exomine.gif)
 
 ## Data Relationships
 
-Below you can ready some basic information about the properties and relationships of the data you need for this application. 
-
-## Governors
-
-Each human habitation colony in the Solar System _(Earth, Mars, Europa, etc...)_ has a governor. To keep each colony running efficiently, the governor has to purchase essential minerals from lightly staffed mining facilities that have been established on asteroids, moons, and rocky planets.
-
-From time to time, governors take leaves of absence, so their status can change from active to inactive. Only active governors should be displayed in the UI.
+Below you can ready some basic information about the properties and relationships of the data you need for this application.
 
 ## Colonies
 
-Each colony can have one, or more, active governor depending on the size of the colony. For example, Earth could support up to five governors that are responsible for different regions of the planet.
+You will need at least three colonies in your application. (Two have been seeded for you. Invent one more in `scripts/database.js`!) Each colony can purchase mineral stock to help build their infrastructure. Colonies can purchase multiple types of minerals.
 
 ## Mining Facilities
-
-Each mining facility can be active or inactive depending on the changes of staffing from the various companies that operate the facilities. Each object representation should record the name of the facility and its active status.
-
-If a mining facility is inactive, then the button in the UI should never be enabled, even after a governor is chosen.
+You will need at least three mining facilities in your application. (Two have been seeded for you. Invent one more in `scripts/database.js`!) Each mining facilitiy needs to track which minerals that are current available at that facility. You don't need to worry about quantities of minerals. You can assume that all space minerals come in standard shipment sizes, and that each mining facility has an unlimited amount of minerals.
 
 ## Minerals
+Any given mineral can be mined at many facilities and can be purchased by many colonies.
 
-Each mining facility can produce several kinds of minerals. Each mineral type can be produced at several mining facilities.
-
-# Stretch Goal
-
-**Do not attempt the stretch goal until you have completed the basic requirements above.**
-
-If your team would like to do more advanced state manipulations, refactor your code to allow a governor to select minerals from multiple mining facilities before finalizing the purchase. A working example done by a previous team can be seen at [https://solar-mine.onrender.com/](https://solar-mine.onrender.com/). 
+## An Important Word about Seed Data
+Some of your data structure has been given to you. Take a look at `scripts/database.js` to see a starting point. This data structure is not comprehensive. **You will need to add more tables.** Read the above instructions and discuss with your team to figure out what tables you need to add.
