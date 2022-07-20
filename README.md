@@ -20,7 +20,7 @@ Quote from previous student...
 
 This is the general layout provided by your product owner. Please follow this guideline for your project's layout.
 
-![wireframe for project](./images/wireframe-3.png)
+![wireframe for project](./images/wireframe-4.png)
 
 
 ## Data Relationships
