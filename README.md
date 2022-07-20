@@ -34,8 +34,13 @@ You will need at least three colonies in your application. (Two have been seeded
 ## Mining Facilities
 You will need at least three mining facilities in your application. (Two have been seeded for you. Invent one more in `scripts/database.js`!) Each mining facilitiy needs to track which minerals that are current available at that facility. You don't need to worry about quantities of minerals. You can assume that all space minerals come in standard shipment sizes, and that each mining facility has an unlimited amount of minerals.
 
+## Transports
+Transports can move minerals from facilities to colonies. There are no restrictions about which transports can move which minerals to which colonies. When you purchase a mineral, you'll need to keep track of which transport you're using to ship it to your colony.
+
 ## Minerals
 Any given mineral can be mined at many facilities and can be purchased by many colonies.
+
+
 
 ## An Important Word about Seed Data
 Some of your data structure has been given to you. Take a look at `scripts/database.js` to see a starting point. This data structure is not comprehensive. **You will need to add more tables.** Read the above instructions and discuss with your team to figure out what tables you need to add.
